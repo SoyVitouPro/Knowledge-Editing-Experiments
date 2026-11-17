@@ -1,0 +1,12 @@
+# ---- Large files (> 20MB) ----
+# Git can't ignore by size, so these are listed explicitly.
+data/attribute_snippets.json
+data/multi_counterfact.json
+data/tfidf_vocab.json
+
+# Precomputed covariance stats (each ~156MB; more get generated per model/layer)
+data/stats/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
